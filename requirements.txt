@@ -1,0 +1,39 @@
+# Core Deep Learning Framework
+torch
+torchvision
+torchaudio
+
+# Transformers and Model Libraries
+transformers
+accelerate
+timm
+
+# Image Processing
+pillow
+
+# Data Processing
+numpy
+pandas
+
+# Machine Learning Utilities
+scikit-learn
+
+# OCR Libraries
+chandra-ocr
+
+# LLM API
+groq
+
+# Visualization (Optional - for training notebooks)
+matplotlib
+seaborn
+tqdm
+
+# Utilities
+safetensors
+einops
+addict
+easydict
+
+# Dataset Download (Optional)
+kagglehub
