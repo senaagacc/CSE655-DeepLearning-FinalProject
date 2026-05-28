@@ -1,15 +1,7 @@
 # End-to-End Document Understanding Pipeline
 ### CSE 655 - Deep Learning Final Project
 
-> **📂 Data:** [Google Drive](https://drive.google.com/drive/folders/1BTx6A4gxQEnKDt6rq4URQlAIzPPnK3wO?usp=drive_link) | Local: `data/rvlcdip_split_v3`
->
-> ⚠️ **Not:** Data klasörü Teams yükleme sınırını aştığı için proje dosyalarından çıkarılmıştır. Veri setini indirmek için yukarıdaki Google Drive bağlantısını kullanabilir veya [`notebooks/document-classification.ipynb`](notebooks/document-classification.ipynb) dosyasındaki indirme talimatlarına bakabilirsiniz.
->
-> **🚀 Run Project Directly:** [Google Drive - Project Notebooks](https://drive.google.com/drive/folders/1DsUKZ1QlYlGXSEMjYSAIfu6O7Dbcy7UA)
 
-This project implements an intelligent document processing pipeline that classifies documents (e.g., invoices, emails, forms), extracts text using OCR, and structures the information using an LLM.
-
----
 
 ## 1. Hardware Requirements
 **Critical Note:** This pipeline utilizes the **Chandra OCR** model and **Swin Transformer**, which are computationally intensive.
@@ -22,17 +14,8 @@ This project implements an intelligent document processing pipeline that classif
 
 ---
 
-## 2. Google Colab Quick Access
 
-All notebooks are available in this repository. To run them on Google Colab:
-
-https://drive.google.com/drive/folders/1DsUKZ1QlYlGXSEMjYSAIfu6O7Dbcy7UA?usp=sharing 
-
-Alternatively, you can upload the notebooks directly from your local machine to Google Colab.
-
----
-
-## 3. Installation Instructions
+## 2. Installation Instructions
 
 ### Option A: Google Colab (Easiest)
 No manual installation is required beforehand. The notebooks contain cell blocks at the beginning to install necessary libraries dynamically.
@@ -65,7 +48,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. File Structure & Descriptions
+## 3. File Structure & Descriptions
 
 | File Name | Description |
 |-----------|-------------|
@@ -76,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-## 5. How to Run
+## 4. How to Run
 
 ### Step 1: Training Classification Model (Optional)
 Perform this step only if you want to re-train the classifier from scratch.
@@ -107,7 +90,7 @@ Perform this step if you want to experiment with the prompt engineering logic.
 
 ---
 
-## 6. Project Workflow
+## 5. Project Workflow
 
 ```
 Input Image → Classification (Swin) → OCR (Chandra) → LLM (Structuring) → JSON Output
@@ -120,11 +103,11 @@ Input Image → Classification (Swin) → OCR (Chandra) → LLM (Structuring) �
 
 ---
 
-## 7. Dependencies
+## 6. Dependencies
 
 All dependencies are listed in `requirements.txt`. 
 
-## 8. Notes
+## 7. Notes
 
 - The pipeline is optimized for documents like invoices, emails, and forms
 - For best results, use high-quality input images
@@ -133,12 +116,12 @@ All dependencies are listed in `requirements.txt`.
 
 ---
 
-## 9. License
+## 8. License
 
 This project is created as part of CSE 655 - Deep Learning coursework.
 
 ---
 
-## 10. Contact
+## 9. Contact
 
 For questions or issues, please refer to the course materials or contact the project maintainers.
